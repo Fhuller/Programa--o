@@ -1,0 +1,165 @@
+@import 'utilities.css';
+
+:root{
+		--primary: #e97900;
+		--dark: #161616;
+		--pure: #FFFFFF;
+		--ternary: #898989;
+		--light: #F2F2F2;
+		
+		
+}
+
+
+body{
+		font-family: 'Poppins', sans-serif;
+}
+
+*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		-webkit-font-smoothing: antialising;
+		
+		
+}
+
+header{
+    
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    color: white;
+
+    position: absolute;
+
+
+
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 74% 87%,0 100%);
+
+
+
+}
+
+.container{
+	max-width: 1152px;
+	
+	padding:0 15px;
+	margin:0 auto;
+	
+	
+}
+
+header nav .left a{
+		color:var(--pure);
+		text-decoration: none;
+		margin-right:2rem;
+		text-transform: uppercase;
+		transition: all .3s ease;
+		z-index:99;
+		position:relative;
+}
+
+header nav .left a:hover{
+		color: var(--primary);
+		z-index:99;
+		position:relative;
+}
+
+
+header nav{
+		padding:2rem 0;
+		
+}
+
+
+header nav .branding{
+		margin-right:30rem;
+		
+}
+
+
+header nav .branding img{
+		width:250px;
+		height:auto;
+
+}
+
+
+.left img{
+	position: realtive;
+		width: 500px;
+		height:500px;
+		top:200px;
+		margin-right: 85px;
+}
+
+.hero .right{
+		color: var(--pure);
+		z-index:99;
+}
+
+.hero .right h6{
+		font-size:1.6rem;
+		color:var(--primary);
+		margin-bottom:0.5rem;
+		z-index:99;
+}
+
+.hero .right h1{
+		font-size:4rem;
+		font-weight:100;
+		line-height:1.2;
+		margin-bottom:2rem;
+		z-index:99;
+}
+
+.hero .right h1 span{
+		color:var(--primary);
+}
+
+.hero .right p{
+		line-height:1.9;
+		margin-bottom:2rem;
+		text-align: justify;
+		text-justify: inter-word;
+		z-index:99;
+}
+
+.adjust{
+		
+		position: relative;
+		bottom:-10px; 						/*DEFINE O TEXTO DA DIREITA CIMA E BAIXO*/
+}
+
+.totaladjust{
+	position: relative;
+	bottom:200px;
+}
+
+
+.information p{
+	line-height:1!important;
+	letter-spacing: 1px!important;
+}
+
+.urls {
+		list-style-type: none !important;
+		
+}
+
+.urls a {
+		text-decoration: none;
+		color: #fff;
+		transition: 0.6s ease;		
+}
+
+.urls li a {
+		text-decoration: none;
+		color: #fff;
+		transition: 0.6s ease;		
+}
+
+.urls li a:hover{
+		color: #e97900
+}
